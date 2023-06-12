@@ -11,13 +11,12 @@ body {
 #page-heading {
     position: relative;
     text-align: center;
-    border: 5px solid green;
+    border: 3px solid blue;
 }
 
-/* .page-container {
-    border: 3px solid blue;
-} */
-
+.page-container {
+    /* border: 3px solid blue; */
+}
 .sub-box {
     width: 30%;
     float: left;
