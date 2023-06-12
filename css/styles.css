@@ -10,24 +10,25 @@ body {
 
 #page-heading {
     position: relative;
+    width: 80%;
+    left: 10%;
     text-align: center;
     border: 5px solid green;
+    padding: 30px;
 }
-  
-/* .page-container {
-  border: 3px solid blue;
-  background-color: blue;
-} */
 
 .sub-box {
-    width: 30%;
+    width: 35%;
+    margin-top: 10px;
+    border: 5px solid;
+    height: 80vh;
+}
+
+.left-box {
+    position: relative;
+    left: 10%;
     float: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-    padding: 5px;
-    border: 2px solid red;
-    height: 60vh;
+    border-color: red;
 }
 
 #destination-details {
@@ -35,18 +36,32 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
-    /* width: 30vw; */
-    margin: 5%;
-}
-#saved-destinations {
+    align-items: left;
+    width: 60%;
+    margin: 0 auto;
+} 
+
+.right-box {
     position: relative;
-    /* right: 0; */
-    /* display: flex; */
-    width: 30vw;
-    margin: 0% 5%; 
-    text-align: center;
+    right: 10%;
+    float: right;
+    border: 5px solid blue;
 }
 
+#right-box-header {
+    border: 5px solid lightcoral;
+    padding: 5px;
+    font-size: 20px;
+    margin: 3px 10px;
+}
+
+#right-box-result {
+    border: 5px solid yellow;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+    height: 85%;
+}
 label {
     margin-top: 10px;   
 }
